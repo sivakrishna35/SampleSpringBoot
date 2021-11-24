@@ -8,6 +8,7 @@ public class SampleController {
 	
 	@GetMapping("/getMsg")
 	public String getMessage() {
+		System.out.println("added sop through git");
 		return "Hello Siva Welcome to Mouritech";
 	}
 
